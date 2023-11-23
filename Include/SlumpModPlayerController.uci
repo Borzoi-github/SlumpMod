@@ -437,7 +437,6 @@ reliable server function ServerVoteRankedMode(bool bEnable)
 {
     `{GAMEMODE} (WorldInfo.Game).InitiateVoteRankedMode(self, bEnable);
 }
-
 exec function VoteRankedTeamSize(int Size)
 {
     ServerVoteRankedTeamSize(Size);
