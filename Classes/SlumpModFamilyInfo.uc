@@ -13,8 +13,6 @@ class SlumpModFamilyInfo extends AOCFamilyInfo;
 
 DefaultProperties
 {
-
-	// damage modifiers
-
-
+	ParryBoxScale=(X=0.15,Y=0.2,Z=0.42)
+	ParryBoxTranslation=(X=30, Z=-28)
 }
